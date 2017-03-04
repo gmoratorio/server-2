@@ -80,8 +80,7 @@ function cleanData(entries) {
     }, {
         entries: []
     });
-
-
+    console.log("Length: ", importantOnlyArray.length)
     return importantOnlyArray;
 }
 

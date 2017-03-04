@@ -3,7 +3,7 @@ const router = express.Router();
 const request = require('request');
 const rp = require('request-promise');
 const dotenv = require('dotenv').config();
-const reqURL = `http://api.planetos.com/v1/datasets/noaa_gfs_global_sflux_0.12d/point?lon=-104.991531&lat=39.742043&apikey=${process.env.NOAA_API_KEY}&count=201`;
+const reqURL = `http://api.planetos.com/v1/datasets/noaa_gfs_global_sflux_0.12d/point?lon=-104.991531&lat=39.742043&apikey=${process.env.NOAA_API_KEY}&count=50`;
 const helper = require('../functions/helper');
 
 /* GET home page. */
