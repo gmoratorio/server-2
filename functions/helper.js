@@ -21,8 +21,10 @@ function cleanData(entries) {
         }
         return acc;
     }, []);
+    let returnObject = {};
+    returnObject.entries = importantOnlyArray;
 
-    return importantOnlyArray;
+    return returnObject;
 }
 
 
